@@ -6,6 +6,6 @@ The code is copyrighted Daniel Catt, the palettes are a modified version of thos
 
 ## Links
 
-The project lives on fxhash here:  
-The article about the project is here:  
+The project lives on fxhash here: https://www.fxhash.xyz/generative/23706  
+The article about the project is here: https://www.fxhash.xyz/article/dub-be-good-to-me
 A video explaining the project is here: https://www.youtube.com/watch?v=MLvLA0QTLmg
