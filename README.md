@@ -8,4 +8,4 @@ The code is copyrighted Daniel Catt, the palettes are a modified version of thos
 
 The project lives on fxhash here:  
 The article about the project is here:  
-A video explaining the project is here:  
+A video explaining the project is here: https://www.youtube.com/watch?v=MLvLA0QTLmg
