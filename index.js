@@ -1,4 +1,4 @@
-/* global preloadImagesTmr fxhash fxrand Image palettes */
+/* global preloadImagesTmr fxpreview fxhash fxrand Image palettes */
 //
 //
 //  Genuary 2023 - 18
@@ -41,6 +41,7 @@ const features = {}
 const nextFrame = null
 let resizeTmr = null
 let imageLoadingSetup = false
+let triggered = false
 /* eslint-disable */
 let sourceImagesLoaded = []
 /* eslint-enable */
@@ -409,6 +410,11 @@ const drawCanvas = async () => {
     ctx.restore()
     ctx.globalCompositeOperation = 'source-over'
   })
+
+  if (!triggered) {
+    fxpreview()
+  }
+  triggered = true
 }
 
 const autoDownloadCanvas = async (showHash = false) => {
